@@ -5,4 +5,5 @@ kind: Kustomization
 images:
 - name: controller
   newName: quay.io/testnetworkfunction/cr-scale-operator
-  newTag: latest
+  newTag: goupgrade
+namespace: test
