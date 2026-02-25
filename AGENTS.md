@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI coding agents when working with code in this repository.
 
 ## Repository Overview
 
@@ -184,7 +184,7 @@ The `MemcachedReconciler`:
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
-| Go | 1.25 | Programming language |
+| Go | 1.26.0 | Programming language |
 | controller-runtime | v0.14.1 | Operator framework |
 | Kubernetes client-go | v0.26.0 | Kubernetes API client |
 | Ginkgo | v2.6.0 | BDD testing framework |
@@ -196,7 +196,7 @@ The `MemcachedReconciler`:
 ## Development Guidelines
 
 ### Go Version
-This project uses Go 1.25. Ensure your local environment matches this version.
+This project uses Go 1.26.0. Ensure your local environment matches this version.
 
 ### Kubebuilder Scaffolding
 This project was generated using Kubebuilder v3 with the Operator SDK plugins. The project layout follows standard Kubebuilder conventions.
