@@ -2,7 +2,7 @@ module github.com/test-network-function/cr-scale-operator
 
 go 1.26
 
-toolchain go1.26.4
+toolchain go1.26.5
 
 require (
 	github.com/onsi/ginkgo/v2 v2.6.0
